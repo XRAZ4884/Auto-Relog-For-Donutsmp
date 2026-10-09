@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "autorelog",
+  "version": "${version}",
+  "name": "Auto Relog",
+  "description": "Disconnects and attempts to reconnect when the player's Y coordinate reaches the configured threshold.",
+  "authors": ["AutoRelog"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.autorelog.AutoRelogClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
